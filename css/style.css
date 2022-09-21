@@ -63,11 +63,13 @@ main    {
 }
 
 .img_container  {
-    flex-basis: calc(100%:3);
+    flex-basis: calc(100%/3);
     flex-grow: 1;
     flex-shrink: 1;
     max-width: 640px;
     max-height: 924px;
+
+    margin-bottom: 5%;
 }
 
 .img_1  {

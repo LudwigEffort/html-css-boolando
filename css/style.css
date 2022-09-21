@@ -46,6 +46,15 @@ body    {
 
 /* Main */
 
+.discounted_price   {
+    color: red;
+}
+
+.cutted_prices  {
+    text-decoration: line-through;
+    margin-left: 1em;
+}
+
 main    {
     margin-top: 5%;
 }

@@ -1,0 +1,57 @@
+/* Border reset */
+
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body    {
+    background-color: antiquewhite;
+}
+
+/* Header */
+
+.nav_bar_container  {
+    color: white;
+    background-color: orangered;
+    height: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+/* .nav_bar    {
+   
+} */
+
+.img_logo {
+    width: 10rem;
+}
+
+/* Main */
+
+main    {
+    margin-top: 5%;
+}
+
+.section_container  {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: aquamarine;
+    height: 2500px;
+    color: black;
+
+    position: relative;
+}

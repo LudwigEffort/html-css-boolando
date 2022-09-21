@@ -27,10 +27,12 @@ body    {
     padding-top: 10px;
     padding-bottom: 10px;
 
+    font-size: 16pt;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 
     position: fixed;
     top: 0;
@@ -39,7 +41,7 @@ body    {
 }
 
 .img_logo {
-    width: 10rem;
+    width: 8em;
 }
 
 /* Main */

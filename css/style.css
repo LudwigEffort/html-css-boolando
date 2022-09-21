@@ -10,6 +10,12 @@ body    {
     background-color: antiquewhite;
 }
 
+.fix_size_img_3  {
+    width: 640px;
+    height: 924px;
+}
+
+
 /* Header */
 
 .nav_bar_container  {
@@ -32,10 +38,6 @@ body    {
     z-index: 99;
 }
 
-/* .nav_bar    {
-   
-} */
-
 .img_logo {
     width: 10rem;
 }
@@ -50,8 +52,63 @@ main    {
     margin-left: 10%;
     margin-right: 10%;
     background-color: aquamarine;
-    height: 2500px;
+    height: auto;
     color: black;
 
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.img_container  {
+    flex-basis: calc(100%:3);
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 640px;
+    max-height: 924px;
+}
+
+.img_1  {
+    background-image: url(../img/1b.webp);
+    background-repeat: no-repeat;
+}
+
+.img_2  {
+    background-image: url(../img/2b.webp);
+    background-repeat: no-repeat;
+}
+
+.img_3  {
+    background-image: url(../img/3b.webp);
+    background-repeat: no-repeat;
+    width: 792px;
+    height: 1144px;
+}
+
+.img_4  {
+    background-image: url(../img/4b.webp);
+    background-repeat: no-repeat;
+}
+
+.img_5  {
+    background-image: url(../img/5b.webp);
+    background-repeat: no-repeat;
+}
+
+.img_6  {
+    background-image: url(../img/6b.webp);
+    background-repeat: no-repeat;
+}
+
+.img_transparency:hover    {
+    opacity: 0;
+}
+
+/* Footer */
+
+.footer_nav_bar_container   {
+    background-color: lightslategrey;
+    height: 60px;
 }

@@ -55,6 +55,17 @@ body    {
     margin-left: 1em;
 }
 
+.heart  {
+    background-color: white;
+    padding: 1em;
+
+
+    position: relative;
+    bottom: 60em;
+    left: 35em;
+    z-index: 2;
+}
+
 main    {
     margin-top: 5%;
 }

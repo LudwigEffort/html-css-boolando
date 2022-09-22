@@ -133,7 +133,8 @@ main    {
 /* Footer */
 
 .footer_container   {
-    background-color: lightslategrey;
+    background-color: #1a1a1a;
+    color: white;
     height: 100px;  
 }
 
@@ -143,6 +144,12 @@ main    {
 }
 
 .section_pt_1   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section_pt_2   {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
